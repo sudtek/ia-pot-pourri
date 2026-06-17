@@ -16,7 +16,7 @@ Dans un LLM, la mémoire est limitée au contexte de la conversation. Il ne se s
 
 Le processus que nous avons suivi est représenté par le diagramme ci‑dessous :
 
-![INSER diagrame 1](https://github.com/sudtek/ia-pot-pourri/blob/0036de79eb4c3380bed3d1e1473ad6c3c5076d08/DEEPSEEK/DP_AutoPrompt/img/diagrame_01_boucle.png)](https://diagrame_01_boucle.png)
+![INSER diagrame 1](https://github.com/sudtek/ia-pot-pourri/blob/0036de79eb4c3380bed3d1e1473ad6c3c5076d08/DEEPSEEK/DP_AutoPrompt/img/diagrame_01_boucle.png)]
 
 Explication par DEEPSEEK lui-même ;) :
 
