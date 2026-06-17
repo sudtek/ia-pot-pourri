@@ -70,6 +70,7 @@ Pour structurer l'introspection, j'ai utilisé la méthode SWOT, empruntée au m
 L'itération a permis un **changement de paradigme** : 
 
 - **v00 – v02** : On cherchait à capturer la **Chaîne de Pensée (CoT)** de manière exhaustive (arbre, hypothèses, vérifications). Mais l'arbre devenait une forêt, consommant trop de tokens.
+
 _* Note perso YS #0 du 17/06/2026 : Le fait de travailler sur une version gratuite minimaliste / limitée du LLM à l'avantage d'obliger à trouver des solutions "sioux" pour tirer un maximum en limitant sa consomation de tokens et nous pousse à une autre approche._
 
 - **v03** : Sur la base de vos retours, j'ai remplacé l'arbre par une **structure intentionnelle** : l'intention principale, les pivots logiques, une chaîne clé illustrative et le contexte permanent. Cela permet de conserver l'essentiel du raisonnement sans l'explosion combinatoire.
