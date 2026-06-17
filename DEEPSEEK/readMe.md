@@ -1,1 +1,1 @@
-Scripts dédiés à Deepseek.
+[DP_AutoPrompt](https://github.com/sudtek/ia-pot-pourri/tree/0036de79eb4c3380bed3d1e1473ad6c3c5076d08/DEEPSEEK/DP_AutoPrompt) est un "prompt" conversationnel qui transforme n'importe quel échange avec DeepSeek en une note Markdown structurée pour Obsidian, en capturant l'essentiel du raisonnement (intention, pivots, chaîne clé) Scripts dédiés à Deepseek mais probablement fonctionnel sur d'autres LLM.
