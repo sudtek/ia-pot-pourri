@@ -107,4 +107,4 @@ _* Note perso YS #2 du 17/06/2026 : Toujours dans la veine treillis + fermeture 
 
 Version du 17 / juin / 2026 par yannick SUDRIE.
 
-_* Note perso YS finale du 17/06/2026 :  Plus tard pour ne pas surcharger il faudra introduire la notion de raisonement ce que l'on sait VS ce que l'on ignore ... _
+_* Note perso YS finale du 17/06/2026 :  Plus tard pour ne pas surcharger il faudra introduire la notion de raisonement ce que l'on sait VS ce que l'on ignore ..._
