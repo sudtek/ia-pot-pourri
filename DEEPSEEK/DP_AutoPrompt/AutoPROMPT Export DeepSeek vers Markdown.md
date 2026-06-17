@@ -24,7 +24,7 @@ Un **autoPROMPT** conversationnel qui transforme n'importe quelle conversation D
 
 ---
 
-## 📄 Le Prompt [01_06_2026_prompt_créé_par_DEEPSEEK_03.md](https://github.com/sudtek/ia-pot-pourri/blob/05766f075ec30e3b925bbad0a07a014f15b10b2b/DEEPSEEK/DP_AutoPrompt/prompts/01_06_2026_prompt_cr%C3%A9%C3%A9_par_DEEPSEEK_03.md)
+## 📄 Le Prompt 01_06_2026_prompt_créé_par_DEEPSEEK_03.md (le plus recent)
 
 Copiez-collez ce prompt **dans votre conversation DeepSeek** :
 
@@ -129,15 +129,15 @@ Copiez la note dans un fichier .md dans votre coffre Obsidian
 
 ## 📁 Versions antérieures
 
-L'évolution du prompt est disponible dans le dossier [/prompts]([ia-pot-pourri/DEEPSEEK/DP_AutoPrompt/prompts at main · sudtek/ia-pot-pourri · GitHub](https://github.com/sudtek/ia-pot-pourri/tree/main/DEEPSEEK/DP_AutoPrompt/prompts)) :
+L'évolution du prompt est disponible dans le dossier [prompts](https://github.com/sudtek/ia-pot-pourri/tree/0036de79eb4c3380bed3d1e1473ad6c3c5076d08/DEEPSEEK/DP_AutoPrompt) :
 
-- [prompt_v00.md]([ia-pot-pourri/DEEPSEEK/DP_AutoPrompt/prompts/prompt_créé_par_DEEPSEEK_00.md at 05766f075ec30e3b925bbad0a07a014f15b10b2b · sudtek/ia-pot-pourri · GitHub](https://github.com/sudtek/ia-pot-pourri/blob/05766f075ec30e3b925bbad0a07a014f15b10b2b/DEEPSEEK/DP_AutoPrompt/prompts/prompt_cr%C3%A9%C3%A9_par_DEEPSEEK_00.md)) – Version initiale (naïve)
+- prompt_v00.md – Version initiale (naïve)
 
 - prompt_v01.md – Correction des placeholders et enrichissement
 
 - prompt_v02.md – Version allégée (gestion des tokens)
 
-- prompt_v03.md – Version finale (intentionnelle)
+- [prompt_v03.md](https://github.com/sudtek/ia-pot-pourri/blob/0036de79eb4c3380bed3d1e1473ad6c3c5076d08/DEEPSEEK/DP_AutoPrompt/prompts/01_06_2026_prompt_cr%C3%A9%C3%A9_par_DEEPSEEK_03.md) – Version finale (intentionnelle)
 
 ## ⚠️ Limites
 
@@ -171,7 +171,7 @@ Ce prompt est le fruit de 4 itérations successives où DeepSeek a analysé ses 
 
 **Le résultat :** 4 itérations (v00 → v03) ont conduit à un prompt équilibré, capturant l'essentiel sans explosion de tokens.
 
-📖 Pour l'histoire complète (les analyses SWOT, les itérations détaillées, la méthodologie) → lire META-README.md
+📖 Pour l'histoire complète (les analyses SWOT, les itérations détaillées, la méthodologie) → lire [META-README.md](https://github.com/sudtek/ia-pot-pourri/blob/0036de79eb4c3380bed3d1e1473ad6c3c5076d08/DEEPSEEK/DP_AutoPrompt/docs/META-README.md)
 
 ---
 
@@ -182,5 +182,3 @@ Ce prompt est le fruit de 4 itérations successives où DeepSeek a analysé ses 
 **Aucune donnée externe :** Le prompt n'appelle aucun service tiers.
 
 **Contrôle total :** Vous décidez de ce qui est exporté et comment.
-
-## 📜 Licence MIT — voir LICENSE
