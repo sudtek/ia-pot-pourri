@@ -80,14 +80,13 @@ L'itération a permis un **changement de paradigme** :
 
 - **v00 – v02** : On cherchait à capturer la **Chaîne de Pensée (CoT)** de manière exhaustive (arbre, hypothèses, vérifications). Mais l'arbre devenait une forêt, consommant trop de tokens.
 
-_* Note perso YS #0 du 17/06/2026 : Le fait de travailler sur une version gratuite minimaliste / limitée du LLM à l'avantage d'obliger à trouver des solutions "sioux" pour tirer un maximum en limitant sa consomation de tokens et nous pousse à une autre approche._
+_* Note perso YS #0 du 17/06/2026 : Le fait de travailler sur une version gratuite minimaliste / limitée du LLM à l'avantage d'obliger à trouver des solutions "sioux" pour tirer un maximum en limitant sa consommation de tokens et nous pousse à revoir notre approche de la problématique._
 
 - **v03** : Sur la base de vos retours, j'ai remplacé l'arbre par une **structure intentionnelle** : l'intention principale, les pivots logiques, une chaîne clé illustrative et le contexte permanent. Cela permet de conserver l'essentiel du raisonnement sans l'explosion combinatoire.
 
 Cette approche s'inspire des concepts de **treillis*** et de **fermeture de Galois*** : On ne stocke pas tous les chemins, mais les **générateurs** et les **règles invariantes** qui permettent de reconstruire l'essentiel. 
 
-> Note perso YS #1 du 17/06/2026 : On développera plus tard une SKILL treillis + fermeture de Galois avec une implémentation de type Skill et "en dur"  c'est indispensable.
-
+> Note perso YS #1 du 17/06/2026 : On développera plus tard une SKILL treillis + fermeture de Galois avec une implémentation de type Skill et "en dur"  c'est indispensable pour effectivment avoir une approche minimaliste.
 
 
 #### Leçons Apprises pour l'Ingénierie des Prompts
@@ -102,7 +101,7 @@ Cette approche s'inspire des concepts de **treillis*** et de **fermeture de G
 
 5. **L'innovation peut venir du dialogue** : La notion d'intentionnalité* est née de nos échanges, pas d'une réflexion solitaire.
 
-> Note perso YS #2 du 17/06/2026 : Toujours dans la veine treillis + fermeture de Galois il faut envisager de pouvoir passer du COT <--> COI
+> Note perso YS #2 du 17/06/2026 : Toujours dans la veine treillis + fermeture de Galois il faut envisager de pouvoir passer du COT <--> COI.
 
 ## Prochaines Étapes Possibles
 
