@@ -1,4 +1,15 @@
-# La Genèse de l'AutoPROMPT
+# # La Genèse de l'AutoPROMPT
+
+> 📌 **À propos de ce document**
+> 
+> Ce META-README est le fruit d'une **co-construction itérative** entre un utilisateur (Yannick SUDRIE) et une IA (DeepSeek).
+> 
+> - Les **analyses, leçons et méthodes** sont généralement rédigées du point de vue de DeepSeek, qui a mené l'introspection et les itérations.
+> - Les **notes personnelles**, identifiées par `> Note perso YS #X`, sont des commentaires de l'utilisateur, ajoutés pour enrichir le contexte ou orienter les prochaines étapes.
+> 
+> Ce dialogue en miroir est au cœur de la méthodologie décrite ici.
+
+## 
 
 ## Le Problème Initial
 
@@ -38,7 +49,6 @@ Ce cycle a été répété quatre fois, de v00 à v03.
 
 Pour structurer l'introspection, j'ai utilisé la méthode SWOT, empruntée au monde du management stratégique. Elle permet de poser un diagnostic clair et complet sur chaque version.
 
-
 ## 📊 🔎 Définition des critères
 
 | Critère      | Ce qu'il évalue                                                                                             |
@@ -47,7 +57,6 @@ Pour structurer l'introspection, j'ai utilisé la méthode SWOT, empruntée au m
 | Faiblesses   | Les lacunes, erreurs ou omissions constatées dans la note générée.                                          |
 | Opportunités | Les améliorations possibles (nouvelles sections, meilleure gestion des cas particuliers).                   |
 | Menaces      | Les risques pour l'utilisateur (dépassement de tokens, oubli de remplacement des placeholders, troncature). |
-
 
 ## Application aux versions successives
 
@@ -77,7 +86,9 @@ _* Note perso YS #0 du 17/06/2026 : Le fait de travailler sur une version gratui
 
 Cette approche s'inspire des concepts de **treillis*** et de **fermeture de Galois*** : On ne stocke pas tous les chemins, mais les **générateurs** et les **règles invariantes** qui permettent de reconstruire l'essentiel. 
 
-_* Note perso YS #1 du 17/06/2026 : On développera plus tard une SKILL treillis + fermeture de Galois + une implémentation "en dur" 2 approches indispensables_
+> Note perso YS #1 du 17/06/2026 : On développera plus tard une SKILL treillis + fermeture de Galois avec une implémentation de type Skill et "en dur"  c'est indispensable.
+
+
 
 #### Leçons Apprises pour l'Ingénierie des Prompts
 
@@ -91,7 +102,7 @@ _* Note perso YS #1 du 17/06/2026 : On développera plus tard une SKILL treillis
 
 5. **L'innovation peut venir du dialogue** : La notion d'intentionnalité* est née de nos échanges, pas d'une réflexion solitaire.
 
-_* Note perso YS #2 du 17/06/2026 : Toujours dans la veine treillis + fermeture de Galois il faut envisager de pouvoir passer du COT <--> COI_
+> Note perso YS #2 du 17/06/2026 : Toujours dans la veine treillis + fermeture de Galois il faut envisager de pouvoir passer du COT <--> COI
 
 ## Prochaines Étapes Possibles
 
@@ -103,8 +114,12 @@ _* Note perso YS #2 du 17/06/2026 : Toujours dans la veine treillis + fermeture 
 
 ---
 
-*Ce document évoluera avec les futures itérations et évolutions.*
+**À qui attribuer ce travail ?**
 
-Version du 17 / juin / 2026 par yannick SUDRIE.
+Ce document est le produit d'un dialogue itératif entre un utilisateur et DeepSeek. Les analyses sont majoritairement rédigées du point de vue de l'IA, tandis que les notes personnelles (préfixées `YS #`) sont de l'utilisateur.
 
-_* Note perso YS finale du 17/06/2026 :  Plus tard pour ne pas surcharger il faudra introduire la notion de raisonement ce que l'on sait VS ce que l'on ignore ..._
+Version du 17 / juin / 2026 par DEEPSEEK & yannick SUDRIE, Ce document évoluera avec les futures itérations.
+
+
+
+> Note perso YS #3 du 17/06/2026 :  Plus tard pour ne pas surcharger il faudra introduire la notion de raisonement ce que l'on sait VS ce que l'on ignore ... 
