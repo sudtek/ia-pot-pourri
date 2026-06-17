@@ -4,11 +4,11 @@
 
 L'export natif DeepSeek est un fichier JSON qui contient les messages bruts, mais sans structure, sans chaîne de pensée, sans métadonnées.
 
-L'idée de départ était simple : demander à DeepSeek lui-même de générer une note Markdown structurée à partir de la conversation en cours. Un prompt auto‑suffisant, copié‑collé dans n’importe quel échange, aurait pu suffire… mais la réalité s’est révélée plus complexe.
+L'idée de départ était simple : Demander à DeepSeek lui-même de générer une note Markdown structurée à partir de la conversation en cours. Un prompt auto‑suffisant, copié‑collé dans n’importe quel échange, aurait pu suffire… mais la réalité s’est révélée plus complexe.
 
 ## Le Défi : La Mémoire Évanescente
 
-En tant que LLM, la mémoire est limitée au contexte de la conversation. Il ne se souvient pas des erreurs ou des améliorations des sessions précédentes.
+Dans un LLM, la mémoire est limitée au contexte de la conversation. Il ne se souvient pas des erreurs ou des améliorations des sessions précédentes.
 
 **Solution trouvée** : L'utilisateur a renvoyé l'intégralité des échanges (y compris les chaînes de pensée complètes) à chaque itération, sous forme de fichiers Markdown incrémentés. Cela a créé une mémoire externe (dans la limite de 50 Mo autorisée par la plateforme au 17/06/2026), permettant d'analyser les productions successives.
 
@@ -18,17 +18,17 @@ Le processus que nous avons suivi est représenté par le diagramme ci‑dessous
 
 ![INSER diagrame 1](https://github.com/sudtek/ia-pot-pourri/blob/0036de79eb4c3380bed3d1e1473ad6c3c5076d08/DEEPSEEK/DP_AutoPrompt/img/diagrame_01_boucle.png)](https://diagrame_01_boucle.png)
 
-
+Explication par DEEPSEEK lui-même ;) :
 
 **Envoi du prompt vN –** L'utilisateur copie‑colle la version courante du prompt dans la conversation.
 
-**DeepSeek génère la note Markdown – **Le modèle applique le prompt et produit une note structurée.
+**DeepSeek génère la note Markdown –** Le modèle applique le prompt et produit une note structurée.
 
-**L'utilisateur analyse la note –** Il identifie les lacunes, les erreurs et les oublis (dates, fichiers joints, troncatures, etc.).
+**L'utilisateur analyse la note –** J'identifie les lacunes, les erreurs et les oublis (dates, fichiers joints, troncatures, etc.).
 
 **Renvoi de TOUTE la conversation + la note + le prompt –** L'utilisateur me fournit l'historique complet, y compris les fichiers joints, pour que j'aie un contexte global.
 
-**DeepSeek analyse avec des outils d'audit – **J'utilise une grille d'analyse (SWOT) pour évaluer systématiquement les forces et faiblesses de la version testée.
+**DeepSeek analyse avec des outils d'audit –** J'utilise une grille d'analyse (SWOT) pour évaluer systématiquement les forces et faiblesses de la version testée.
 
 **Proposition d'une nouvelle version vN+1 –** Sur la base de l'analyse, je propose un prompt amélioré, qui sera à nouveau testé.
 
@@ -39,7 +39,6 @@ Ce cycle a été répété quatre fois, de v00 à v03.
 Pour structurer l'introspection, j'ai utilisé la méthode SWOT, empruntée au monde du management stratégique. Elle permet de poser un diagnostic clair et complet sur chaque version.
 
 
-
 ## 📊 🔎 Définition des critères
 
 | Critère      | Ce qu'il évalue                                                                                             |
@@ -48,6 +47,7 @@ Pour structurer l'introspection, j'ai utilisé la méthode SWOT, empruntée au m
 | Faiblesses   | Les lacunes, erreurs ou omissions constatées dans la note générée.                                          |
 | Opportunités | Les améliorations possibles (nouvelles sections, meilleure gestion des cas particuliers).                   |
 | Menaces      | Les risques pour l'utilisateur (dépassement de tokens, oubli de remplacement des placeholders, troncature). |
+
 
 ## Application aux versions successives
 
@@ -73,7 +73,9 @@ L'itération a permis un **changement de paradigme** :
 
 - **v03** : Sur la base de vos retours, j'ai remplacé l'arbre par une **structure intentionnelle** : l'intention principale, les pivots logiques, une chaîne clé illustrative et le contexte permanent. Cela permet de conserver l'essentiel du raisonnement sans l'explosion combinatoire.
 
-Cette approche s'inspire des concepts de **treillis** et de **fermeture de Galois** : on ne stocke pas tous les chemins, mais les **générateurs** et les **règles invariantes** qui permettent de reconstruire l'essentiel.
+Cette approche s'inspire des concepts de **treillis*** et de **fermeture de Galois*** : On ne stocke pas tous les chemins, mais les **générateurs** et les **règles invariantes** qui permettent de reconstruire l'essentiel. 
+
+_* Note perso YS #1 du 17/06/2026 : On développera plus tard une SKILL treillis + fermeture de Galois + une implémentation "en dur" 2 approches indispensables_
 
 #### Leçons Apprises pour l'Ingénierie des Prompts
 
@@ -85,7 +87,9 @@ Cette approche s'inspire des concepts de **treillis** et de **fermeture de Ga
 
 4. **L'équilibre entre richesse et concision est un art** : Il faut trouver le point où la note est utile sans être trop lourde.
 
-5. **L'innovation peut venir du dialogue** : La notion d'intentionnalité est née de nos échanges, pas d'une réflexion solitaire.
+5. **L'innovation peut venir du dialogue** : La notion d'intentionnalité* est née de nos échanges, pas d'une réflexion solitaire.
+
+_* Note perso YS #21 du 17/06/2026 : Toujours dans la veine treillis + fermeture de Galois il faut envisager de pouvoir passer du COT <--> COI_
 
 ## Prochaines Étapes Possibles
 
@@ -97,6 +101,6 @@ Cette approche s'inspire des concepts de **treillis** et de **fermeture de Ga
 
 ---
 
-*Ce document évoluera avec les futures itérations.*
+*Ce document évoluera avec les futures itérations et évolutions.*
 
 Version du 17 / juin / 2026 par yannick SUDRIE.
