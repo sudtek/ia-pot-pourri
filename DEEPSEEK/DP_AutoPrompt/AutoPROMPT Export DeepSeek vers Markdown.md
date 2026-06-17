@@ -137,7 +137,7 @@ L'évolution du prompt est disponible dans le dossier [prompts](https://github.c
 
 - prompt_v02.md – Version allégée (gestion des tokens)
 
-- [prompt_v03.md](https://github.com/sudtek/ia-pot-pourri/blob/0036de79eb4c3380bed3d1e1473ad6c3c5076d08/DEEPSEEK/DP_AutoPrompt/prompts/01_06_2026_prompt_cr%C3%A9%C3%A9_par_DEEPSEEK_03.md) – Version finale (intentionnelle)
+- [01_06_2026_prompt_créé_par_DEEPSEEK_03.md](https://github.com/sudtek/ia-pot-pourri/blob/0036de79eb4c3380bed3d1e1473ad6c3c5076d08/DEEPSEEK/DP_AutoPrompt/prompts/01_06_2026_prompt_cr%C3%A9%C3%A9_par_DEEPSEEK_03.md) – Version finale (intentionnelle)
 
 ## ⚠️ Limites
 
@@ -165,9 +165,9 @@ Ce prompt est le fruit de 4 itérations successives où DeepSeek a analysé ses 
 
 **L'étincelle :** L'export natif DeepSeek était incomplet. L'idée était simple : demander à DeepSeek lui-même de générer la note structurée.
 
-**Le défi :** En tant que LLM, sa mémoire est limitée. Il ne se souviens pas des erreurs des versions précédentes.
+**Le défi :** En tant que LLM, sa mémoire est limitée. Il ne se souvient pas des erreurs des versions précédentes.
 
-**La solution :** L'utilisateur a renvoye l'intégralité des échanges à chaque itération, créant une "mémoire externe". Deepseek a utilisé la méthode SWOT pour analyser chaque version.
+**La solution :** L'utilisateur a renvoyé l'intégralité des échanges à chaque itération, créant une "mémoire externe". Deepseek a utilisé la méthode SWOT pour analyser chaque version.
 
 **Le résultat :** 4 itérations (v00 → v03) ont conduit à un prompt équilibré, capturant l'essentiel sans explosion de tokens.
 
